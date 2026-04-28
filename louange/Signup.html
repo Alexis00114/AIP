@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>School Fee Payment Portal</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #004080;
+      color: white;
+      padding: 15px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    .dashboard {
+      display: flex;
+      padding: 20px;
+    }
+    .profile-card {
+      width: 25%;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      margin-right: 20px;
+    }
+    .fees-section {
+      flex: 1;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .fees-section table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+    .fees-section th, .fees-section td {
+      padding: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .btn {
+      background: #004080;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 15px;
+    }
+    footer {
+      background: #eee;
+      padding: 10px;
+      text-align: center;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>School Fee Portal</h1>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Pay Fees</a>
+    <a href="#">History</a>
+    <a href="#">Support</a>
+    <a href="#">Profile</a>
+  </nav>
+</header>
+
+<div class="dashboard">
+  <div class="profile-card">
+    <h2>John Doe</h2>
+    <p>Grade: 5</p>
+    <p>Student ID: #12345</p>
+  </div>
+
+  <div class="fees-section">
+    <h2>Outstanding Fees</h2>
+    <table>
+      <tr><th>Item</th><th>Amount</th><th>Due Date</th></tr>
+      <tr><td>Tuition</td><td>$300</td><td>Mar 1</td></tr>
+      <tr><td>Transport</td><td>$50</td><td>Mar 1</td></tr>
+      <tr><td>Activities</td><td>$150</td><td>Mar 15</td></tr>
+      <tr><td><strong>Total</strong></td><td><strong>$500</strong></td><td></td></tr>
+    </table>
+    <button class="btn">Pay Now</button>
+    <button class="btn">Pay in Installments</button>
+  </div>
+</div>
+
+<footer>
+  © 2026 Your School | Terms | Privacy | Contact
+</footer>
+
+</body>
+</html>
